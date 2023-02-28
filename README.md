@@ -6,7 +6,7 @@ This repository refers to the pytorch implementation of the following paper:
 
 
 
-![](figs/PE_overview.jpg)
+![](figs/PE_overview.png)
 
 The code are heavily borrowed from a pytorch implementation ([Link](https://github.com/hfslyc/AdvSemiSeg.git)). The backbone model is HRNet (Large/CARAFE/without stage4)([Link](https://github.com/HRNet/HRNet-Semantic-Segmentation.git)). We strengthened the ability of the discriminator by adding feature maps to the predicted label and then using it as the input of the discriminator during training and the bilinear upsampling layer of HRNet in the decoder was replaced with the CARAFE upsampling module ([link](https://github.com/leftthomas/CARAFE.git)) to better restore the PE shape and position., which yields mIOU ``0.3721``, dice score ``0.5113`` and sensitivity``0.4967`` ,on dataset from China Medical University Hospital (CMUH).
 
