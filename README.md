@@ -30,7 +30,9 @@ git clone https://github.com/hfslyc/AdvSemiSeg.git
 
 ## Example visualizing the result on medical image
 ![](figs/semi-supervised result.png)
+ 
  Predicted images of semi-supervised segmentation in the open source dataset. The second row shows our model without the addition of feature maps before the discriminator. The third row shows that the addition of feature maps before the discriminator reduced the number of false negatives.
  
 ![](figs/comparing_supervised_unsupervised.png)
+ 
  Predicted computed tomography pulmonary angiogram (CTPA) images of  pulmonary embolism (PE) lesion areas of segmentation results in the NCKUH dataset. As with the results on the open source dataset, the false negatives were reduced after the semi-supervised training.
