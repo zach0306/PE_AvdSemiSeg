@@ -30,6 +30,3 @@ git clone https://github.com/hfslyc/AdvSemiSeg.git
 
 
 
-## Changelog
-
-* 28/1/2023: Update BMVC results
